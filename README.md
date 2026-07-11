@@ -25,25 +25,41 @@ How to Run the Code
 1. Download or clone the repository
 2. Open data description and analysis jupyter file using python software.
 3. Load the dataset (CSV format) and run the code to generate analysis figures and tables, and to create csv files:
-   a. clustered dataset for CG-A ANN code.
-   b. clustered dataset for for CG-B ANN code.
-   c. dimensional reduced dataset for PCA dataset ANN code.
-   d. CC reduced dataset for CC-based dataset.
-4. Open MATLAB or Python environment
-5. Load the dataset (CSV format) for each specific code
-6. Run the desired script:
-  ANN_original dataset.mlx
-  ANN_CG_A.mlx
-  ANN_CG_B.mlx
-  ANN_PCA dataset.m
-  ANN CC-based dataset.mlx
+
+      a. clustered dataset for CG-A ANN code.
+   
+      b. clustered dataset for for CG-B ANN code.
+   
+      c. dimensional reduced dataset for PCA dataset ANN code.
+   
+      d. CC reduced dataset for CC-based dataset.
+   
+5. Open MATLAB or Python environment
+6. Load the dataset (CSV format) for each specific code
+7. Run the desired script:
+   
+     ANN_original dataset.mlx
+  
+     ANN_CG_A.mlx
+  
+     ANN_CG_B.mlx
+  
+     ANN_PCA dataset.m
+  
+     ANN CC-based dataset.mlx
+  
 6. Execute training and evaluation
+   
 
 A test example is included to verify correct execution.
 
-Requirements
+
+**Requirements**
+
 MATLAB (R2020 or later recommended)
+
 MATLAB Neural Network Toolbox
+
 Python:
 - Python 3.x
 - Jupyter Notebook
